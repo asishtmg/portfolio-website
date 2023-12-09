@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  font-size: 2cm;
+  color: rgb(68, 60, 60);
+  cursor: default;
+}
+span{
+  color: orange;
+}
+.navigation{
+  font-size: 1.1cm;
+  color: rgb(68, 60, 60);
+  text-decoration: none;
+  margin-right: 40px;
+  font-weight: 500;
+  transition: 1.5s;
+}
+.navigation a:hover{
+  color: orange;
+}
+.button-download{
+  color: white;
+  text-decoration: none;
+  padding: 8px 35px;
+  background: orange;
+  border-radius: 10px;
+  border: 2px solid orange;
+  font-weight: 500;
+  transition: 2s;
+}
+.button-download:hover{
+  color: orange;
+  background: transparent;
+}
+.home{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(home.jpg);
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 30px 100px;
+}
+.content{
+  max-width: 500px;
+  color: rgb(68, 60, 60);
+}
+.content h2{
+  font-size: 2cm;
+}
+.content h4{
+  font-size: 1cm;
+}
+.content p{
+  padding: 10px 0 40px;
+}
+.group-button a{
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  background: orange;
+  border-radius: 10px;
+  border: 2px solid orange;
+  font-weight: 500;
+  transition: 1.5s;
+}
+.group-button a:hover:nth-child(1){
+  color: orange;
+  background: transparent;
+}
+.group-button a :nth-child(2){
+  color: orange;
+  background: transparent;
+  margin-left: 30px;
+  padding: 10px 30px;
+}
+.group-button a:hover:nth-child(2){
+  color: white;
+  background: orange;
+}
+.socialmedia{
+  position: absolute;
+  bottom: 50px;
+}
+.socialmedia a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  border-radius: 50%;
+  margin-right: 22px;
+  text-align: center;
+  line-height: 40px;
+  outline: 3px solid orange;
+  transition: 1s;
+}
+.socialmedia a:hover{
+  transform: translateY(-5px);
+}
+.socialmedia a i {
+  color: rgb(68, 60, 60);
+  font-size: 20px;
+}
